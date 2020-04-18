@@ -2,6 +2,10 @@ body
 {
 	background-color: #8ec6c5;
 }
+div
+{
+  padding-bottom:50px;
+}
 .form
 {
     background-color: white;
