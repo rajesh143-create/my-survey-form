@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h1>Survey Form</h1>
+	<div class="form">
+	  <form  class="input-form" action="mail-to:pradhanrajesh845@gmail.com" method="post" enctype="utf-8">
+	  	<p class="para">Let us know how we can improve our user experience</p>
+	  	<label>*Name:</label><input type="text" name="name"><br>
+	  	<label>*e-mail:</label><input type="email" name="email"><br>
+	  	<label>*age:</label><input type="text" name="age"><br>
+	  	<label>*which option best describes your current role:</label><select name="occupation" >
+	  		<option value="student">Student</option>
+	  		<option value="Employee">Employee</option>
+	  	    <option value="Teacher">Teacher</option>
+	  	    <option value="Business">Business</option>
+	  	</select><br>
+	  	<label>Did our site respond well?</label><select name="responsiveness">
+	  		<option value="yes">Yes</option>
+	  		<option value="No">NO</option>
+	  	</select><br>
+	  	<label>Are the fonts readabele?</label><select name="fonts">
+	  		<option value="Yes">Yes</option>
+	  		<option value="No">No</option>
+	  	</select><br>
+	  	<label>Are you happy with the UserInterface?</label><select name="user Interface">
+	  		<option value="Yes">Yes</option>
+	  	    <option value="No">NO</option>
+	  	    <option value="average">Ok OK</option>
+	  	</select><br>
+	  	<label>Are you happy with  the solution?</label><select name="solution" >
+	  		<option value="yes">Yes</option>
+	  		<option value="NO">No</option>
+	  	</select><br>
+	  	<label>Your comments:</label>
+	  	<textarea  maxlength="2000"name="comments"></textarea><br>
+	  	<input class="submit"type="submit" name="submit">
+	  	<button type="button">Reset</button>
+	  </form>
+	</div>
+</body>
+</html>

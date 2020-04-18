@@ -1,0 +1,48 @@
+body
+{
+	background-color: #8ec6c5;
+}
+.form
+{
+    background-color: white;
+	margin: 30px 20px 0 20px;
+}
+.input-form
+{
+	text-align: left;
+	text-orientation: ;
+}
+h1
+{
+	text-align: center;
+}
+.para
+{
+	text-align: center;
+}
+label
+{
+	margin-right: 20px;
+	width: 500px;
+	text-align: right ;
+}
+input
+{
+	margin-left:20px ;
+}
+select
+{
+	margin-left:20px;
+}
+.submit
+{
+	margin-left: 520px;
+}
+button
+{
+	margin-left: 5px;
+}
+textarea
+{
+	margin-left: 20px;
+}
